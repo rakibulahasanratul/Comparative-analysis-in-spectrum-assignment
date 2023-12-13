@@ -1,0 +1,47 @@
+#######################
+network data set creation.
+
+1. open google colab -- URL: https://colab.research.google.com/
+2. go to file-->Upload Notebook --> browse and load the file "networkdata_creation.ipynb"
+3. Change the  value in "random_pairs = generate_random_pairs(G,100)" to 40 or 100 for the connection request
+4. Runtime-->Run All. 
+
+Output: 40 and 100 connection request dataset for python and matlab interface.
+
+
+#######################
+These text file contains the 40 and 100 connection dataset used in this project.
+40connectionrequest.txt
+100connectionrequest.txt 
+
+#######################
+
+1. Run these code to generate 40 connection request result
+
+code_connection_request_40/genetic_algorithm_40connection.ipynb --Python
+code_connection_request_40/scheduleTasksDemoLF_40_connection_request.m ---matlab
+code_connection_request_40/scheduleTasksDemoWF_40_connection_request.m ---matlab
+
+2. Run these code to generate 100 connection request result
+
+code_connection_request_100/genetic_algorithm_100connection.ipynb  --Python
+code_connection_request_100/scheduleTasksDemoLF_100_connection_request.m ---matlab
+code_connection_request_100/scheduleTasksDemoWF_100_connection_request.m ---matlab
+
+
+python instruction:
+1. open google colab -- URL: https://colab.research.google.com/
+2. go to file-->Upload Notebook --> browse and load the file "genetic_algorithm_40connection.ipynb" or "genetic_algorithm_100connection.ipynb"
+3. Runtime-->Run All. 
+
+#######################
+
+Comparison result of LF WF and GA
+
+1. run summary.m matlab file and it will produce the output.
+
+
+
+###################
+
+All output result is in alloutputs folder
