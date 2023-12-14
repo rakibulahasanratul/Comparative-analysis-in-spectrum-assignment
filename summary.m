@@ -4,14 +4,11 @@ requests_100 = [94, 69, 69];
 figure;
 numGroups = size(requests_40, 2); 
 b = bar([requests_40; requests_100]', 'grouped');
-
 x = NaN(2, numGroups);
 for i = 1:length(b)
     x(i,:) = b(i).XEndPoints;
 end
-
 set(gca, 'xticklabel', algorithms)
-
 xlabel('Algorithms')
 ylabel('Highest spectrum indice')
 title('Highest spectrum indices by Algorithm and Connection Requests')
